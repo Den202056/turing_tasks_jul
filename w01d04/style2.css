@@ -1,0 +1,35 @@
+
+form {
+    margin-left: 30px;
+}
+
+form.form_1 input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+legend {
+    margin: 20px;
+}
+
+fieldset {
+    width: 500px;
+}
+
+form label, select {
+    margin-right: 30px;
+}
+
+.textarea_nosize {
+    resize: none;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.sub {
+    margin-top: 10%;
+    margin-left: 40%;
+}
