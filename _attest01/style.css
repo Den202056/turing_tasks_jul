@@ -1,0 +1,88 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 10px;
+    font-family: Arial;
+}
+
+table {
+    border-spacing: 4px;
+    width: 100%;
+    /*table-layout: fixed;*/
+    background-color: #F0F1F1;
+}
+
+th {
+    width: 23%;
+    background-color: #D4DDE3;
+}
+
+tr {
+    background-color: #D4D4D4;
+}
+
+td {
+    padding: 3px 6px 3px 6px;
+}
+
+tr:nth-child(2n) {
+    background-color: #E4E4E4;;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #C5C5C5;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+
+select {
+    width: 100%;
+    border: 2px solid #C5C5C5;
+}
+
+button {
+    margin: 10px 0 20px 5px;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*.fixed_width {*/
+/*    width: 50px;*/
+/*}*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #F0F1F1;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltip:active .tooltiptext {
+    visibility: visible;
+}
+
